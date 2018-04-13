@@ -12,5 +12,5 @@ html,body,.wrap{
 
 .wrap{
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
 }
