@@ -1,0 +1,34 @@
+.header{
+    width:100%;
+    height:44px;
+    background: #EB3B47;
+    display: flex;
+    align-items: center;
+}
+.header span:nth-child(1) a{
+    color:#fff;
+}
+.header span i.icon{
+    color:#fff;
+    margin:0 8px;
+}
+.header label{
+    height:100%;
+    line-height: 44px;
+    position: relative;
+    flex:1;
+}
+.header label input{
+    width:100%;
+    height: 30px;
+    text-align: center;
+    border:0;
+    border-radius: 8px 8px;
+}
+.header label i.icon{
+    left:50%;
+    top:5px;
+    margin-left:-90px;
+    position: absolute;
+
+}
