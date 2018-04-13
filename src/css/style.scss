@@ -1,0 +1,54 @@
+.header{
+    width:100%;
+    height:44px;
+    background: #EB3B47;
+    display: flex;
+    align-items: center;
+    label{
+        height:100%;
+        line-height: 44px;
+        position: relative;
+        flex:1;
+        input{
+            width:100%;
+            height: 30px;
+            text-align: center;
+            border:0;
+            border-radius: 8px 8px;
+        }
+        i.icon{
+            left:50%;
+            top:5px;
+            margin-left:-90px;
+            position: absolute;
+        }
+    }
+    span:nth-child(1) a{
+        color:#fff;
+    }
+    span i.icon{
+        color:#fff;
+        margin:0 8px;
+    }
+}
+
+nav {
+    width:100%;
+    height:50px;
+    ul{
+        border-bottom: 1px solid #D3D3D3;
+        width:100%;
+        height:50px;
+        display: flex;
+        align-items: center;
+        li{
+            color:#636363;
+            text-align: center;
+            flex:1;
+            i.icon{
+                color:#D4D4D4;
+                margin-left:4px;
+            }
+        }
+    }
+}
